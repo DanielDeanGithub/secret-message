@@ -13,3 +13,5 @@ secretMessage.shift();
 secretMessage.unshift('Programming');
 
 secretMessage.splice(secretMessage.indexOf('get'), 5, 'know');
+
+console.log(secretMessage.join(' '));
