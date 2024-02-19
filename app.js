@@ -7,3 +7,5 @@ console.log(secretMessage.length);
 secretMessage.push('to', 'Program');
 
 secretMessage[secretMessage.indexOf('easily')] = 'right';
+
+secretMessage.shift();
