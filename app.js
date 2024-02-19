@@ -11,3 +11,5 @@ secretMessage[secretMessage.indexOf('easily')] = 'right';
 secretMessage.shift();
 
 secretMessage.unshift('Programming');
+
+secretMessage.splice(secretMessage.indexOf('get'), 5, 'know');
